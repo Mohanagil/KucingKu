@@ -30,8 +30,8 @@
         <div class="row bg-secondary py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left">
                 <div class="d-inline-flex align-items-center">
-                    <p class="mr-2 mb-2 mb-lg-0 text-white">Opening Hours:</p>
-                    <span class="mb-2 mb-lg-0 text-white">8.00AM - 9.00PM</span>
+                    <p class="mr-2 mb-2 mb-lg-0 text-white">Jam Buka:</p>
+                    <span class="mb-2 mb-lg-0 text-white">08.00 - 20.00</span>
                 </div>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
@@ -58,7 +58,7 @@
         <div class="row py-3 px-lg-5">
             <div class="col-lg-4">
                 <a href="" class="navbar-brand d-none d-lg-block">
-                    <h1 class="m-0 display-5 text-capitalize font-italic"><span class="text-primary">Safety</span>First</h1>
+                    <h1 class="m-0 display-5 text-capitalize font-italic"><span class="text-primary">Kucing</span>Ku</h1>
                 </a>
             </div>
             <div class="col-lg-8 text-center text-lg-right">
@@ -94,7 +94,7 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-4">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Cats List</a>
                     <a href="service.html" class="nav-item nav-link">Adoption</a>
                     <a href="guard.html" class="nav-item nav-link">Blog</a>
