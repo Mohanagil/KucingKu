@@ -43,7 +43,7 @@
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
                 <i class="flaticon-policeman display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">Professional Staff</h5>
+                    <h5 class="mb-3">Donasi</h5>
                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
                     </p>
                 </div>
@@ -53,7 +53,7 @@
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
                 <i class="flaticon-helmet display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">Latest Equipments</h5>
+                    <h5 class="mb-3">Adopsi</h5>
                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
                     </p>
                 </div>
@@ -63,7 +63,7 @@
             <div class="feature-item d-flex align-items-center px-5">
                 <i class="flaticon-surveillance display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">24/7 Support</h5>
+                    <h5 class="mb-3">Informasi</h5>
                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
                     </p>
                 </div>
