@@ -5,7 +5,7 @@
     <div id="blog-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                <img class="w-100" src="img/kucing.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Your Safety, Our Efforts</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Best Security Service</h4>
