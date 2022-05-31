@@ -17,7 +17,6 @@
                         <th>Umur</th>
                         <th>Berat</th>
                         <th>Jenis Kelamin</th>
-                        <th>Opsi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,8 +27,9 @@
     </div>
 </div>
 @endsection
-<script type="text/javascript">
-    $(document).ready(function () {
+@section('js')
+<script>
+   $(document).ready( function () {
         $('#table-list').DataTable({
             processing: true,
             serverSide: true,
@@ -44,8 +44,6 @@
                 {
                     data: 'image',
                     name: 'image'
-                    searchable:false,
-                    orderable:false;
                 },
                 {
                     data: 'ras',
@@ -63,11 +61,8 @@
                     data: 'jenis_kelamin',
                     name: 'jenis_kelamin'
                 },
-                {
-                    data:
-                    name:
-                },
             ]
         });
     });
 </script>
+@endsection

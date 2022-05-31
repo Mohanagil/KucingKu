@@ -29,4 +29,16 @@ class MainController extends Controller
     {
         return view('main.donasi');
     }
+
+    //untuk menampilkan halaman list kucing
+    public function kucing()
+    {
+        return view('main.kucing-list');
+    }
+
+     //untuk menampilkan halaman blog
+     public function blog()
+     {
+         return view('main.blog');
+     }
 }

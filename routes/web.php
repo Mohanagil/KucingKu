@@ -29,6 +29,8 @@ Route::prefix('/')->name('main.')->group(function () {
     Route::get('/about',[MainController::class,'about'])->name('about');
     Route::get('/kontak',[MainController::class,'kontak'])->name('kontak');
     Route::get('/donasi',[MainController::class,'donasi'])->name('donasi');
+    Route::get('/blog',[MainController::class,'blog'])->name('blog');
+    Route::get('/list-kucing',[MainController::class,'kucing'])->name('kucing');
 });
 
 

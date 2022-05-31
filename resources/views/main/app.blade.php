@@ -94,9 +94,9 @@
                 <div class="navbar-nav m-auto py-4">
                     <a href="{{route('main.index')}}" class="nav-item nav-link">Beranda</a>
                     <a href="{{route('main.about')}}" class="nav-item nav-link">Tentang Kami</a>
-                    <a href="service.html" class="nav-item nav-link">Data Kucing</a>
+                    <a href="{{route('main.kucing')}}" class="nav-item nav-link">Data Kucing</a>
                     <a href="{{route('main.donasi')}}" class="nav-item nav-link">Donasi</a>
-                    <a href="guard.html" class="nav-item nav-link">Blog</a>
+                    <a href="{{route('main.blog')}}" class="nav-item nav-link">Blog</a>
                     <a href="{{route('main.kontak')}}" class="nav-item nav-link">Kontak</a>
                 </div>
             </div>

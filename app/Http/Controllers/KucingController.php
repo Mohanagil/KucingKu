@@ -19,7 +19,7 @@ class KucingController extends Controller
     public function data(){
         $kucing = Kucing::query();
 
-        return DataTables::of($kucing)
+        return Datatables::of($kucing)
             ->addIndexColumn()
             ->escapeColumns([])
             ->make(true);
@@ -51,7 +51,7 @@ class KucingController extends Controller
             'ras'           => $request->ras,
             'umur'          => $request->umur,
             'berat'         => $request->berat,
-            'jenis_kelamin' => $request->ras,
+            'jenis_kelamin' => $request->jenis_kelamin,
         ]);
 
         if($kucing){
