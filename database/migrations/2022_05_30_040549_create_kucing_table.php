@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('umur');
             $table->string('berat');
             $table->string('jenis_kelamin');
+            $table->string('image');
             $table->timestamps();
         });
     }

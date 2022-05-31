@@ -81,10 +81,9 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-0">
+    <div class="container-fluid p-0 mb-5">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-0">
             <a href="" class="navbar-brand d-block d-lg-none">
                 <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Safety</span>First</h1>
             </a>
@@ -93,12 +92,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-4">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Cats List</a>
-                    <a href="service.html" class="nav-item nav-link">Adoption</a>
+                    <a href="{{route('main.index')}}" class="nav-item nav-link">Beranda</a>
+                    <a href="{{route('main.about')}}" class="nav-item nav-link">Tentang Kami</a>
+                    <a href="service.html" class="nav-item nav-link">Data Kucing</a>
+                    <a href="{{route('main.donasi')}}" class="nav-item nav-link">Donasi</a>
                     <a href="guard.html" class="nav-item nav-link">Blog</a>
-                    <a href="contact.html" class="nav-item nav-link">Donation</a>
+                    <a href="{{route('main.kontak')}}" class="nav-item nav-link">Kontak</a>
                 </div>
             </div>
         </nav>

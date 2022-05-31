@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Models\Kucing;
+use Alert;
+use Yajra\DataTables\Facades\DataTables;
 
 use Illuminate\Http\Request;
 
@@ -11,6 +13,16 @@ class KucingController extends Controller
     public function index()
     {
         return view('admin.kucing');
+    }
+
+    //untuk melemparkan data ke datatables
+    public function data(){
+        $kucing = Kucing::query();
+
+        return DataTables::of($kucing)
+            ->addIndexColumn()
+            ->escapeColumns([])
+            ->make(true);
     }
 
     //untuk menampilkan halaman tambah data kucing admin
@@ -35,7 +47,7 @@ class KucingController extends Controller
         $image->storeAs('public/kucing', $image->hashName());
 
         $kucing = Kucing::create([
-            'foto'          => $image->hashName(),
+            'image'          => $image->hashName(),
             'ras'           => $request->ras,
             'umur'          => $request->umur,
             'berat'         => $request->berat,
@@ -44,10 +56,13 @@ class KucingController extends Controller
 
         if($kucing){
             //redirect dengan pesan sukses
-            return redirect()->route('kucing.index')->with(['success' => 'Data Berhasil Disimpan!']);
+            Alert::success('Sukses', 'Data Berhasil ditambahkan!');
+            return redirect()->route('kucing.index');
+
         }else{
             //redirect dengan pesan error
-            return redirect()->route('kucing.index')->with(['error' => 'Data Gagal Disimpan!']);
+            Alert::error('Error', 'Data Gagal ditambahkan!');
+            return redirect()->route('kucing.index');
         }
     }
 

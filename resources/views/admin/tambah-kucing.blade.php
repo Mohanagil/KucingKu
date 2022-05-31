@@ -6,6 +6,7 @@
         <li class="breadcrumb-item active">Add Cat Data</li>
     </ol>
     <form action="{{route('kucing.store')}}" method="POST" enctype="multipart/form-data">
+        @csrf
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ras </label>
           <input type="ras" class="form-control" id="ras" name="ras" aria-describedby="emailHelp">
@@ -28,7 +29,7 @@
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Foto</label>
-            <input type="file" class="form-control" id="foto" name="foto" aria-describedby="emailHelp">
+            <input type="file" class="form-control" id="image" name="image" aria-describedby="emailHelp">
         </div>
         <button type="submit" class="btn btn-primary">Simpan</button>
       </form>

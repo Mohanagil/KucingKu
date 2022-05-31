@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\KucingController;
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,13 +23,19 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
-Route::get('/about', function () {
-    return view('main.about');
+# route untuk main
+Route::prefix('/')->name('main.')->group(function () {
+    Route::get('/', [MainController::class, 'index'])->name('index');
+    Route::get('/about',[MainController::class,'about'])->name('about');
+    Route::get('/kontak',[MainController::class,'kontak'])->name('kontak');
+    Route::get('/donasi',[MainController::class,'donasi'])->name('donasi');
 });
 
-# route untuk kucing
+
+# route untuk kucing admin
 Route::prefix('/kucing')->name('kucing.')->group(function () {
     Route::get('/', [KucingController::class, 'index'])->name('index');
+    Route::get('/data',[KucingController::class,'data'])->name('data');
     Route::get('/create', [KucingController::class, 'create'])->name('tambah');
     Route::get('/edit', [KucingController::class, 'edit'])->name('edit');
     Route::post('/store', [KucingController::class, 'store'])->name('store');
