@@ -4,25 +4,25 @@
 <div class="container-fluid mb-5 py-5">
     <div class="row align-items-center">
         <div class="col-lg-6 px-0">
-            <img width="100%" class="img-fluid" src="img/about.jpg" alt="Image">
+            <img width="100%" class="img-fluid" src="img/tentangkami.jpg" alt="Image">
         </div>
         <div class="col-lg-6 py-5 py-lg-0 px-3 px-lg-5">
-            <h5 class="text-primary mb-3">About Us</h5>
-            <h1 class="mb-4">15 Years Experience</h1>
-            <p>Labore vero lorem eos sed aliquy ipsum aliquy sed. Vero dolore dolore takima ipsum lorem rebum</p>
+            <h5 class="text-primary mb-3">TENTANG KAMI</h5>
+            <h1 class="mb-4">KucingKu - Cat Shelter</h1>
+            <p>KucingKu merupakan tempat bagi para kucing yang membutuhkan bantuan, terutama untuk kucing jalanan yang berada di wilayah Kota Surabaya.</p>
             <div class="row py-2">
                 <div class="col-sm-6">
                     <i class="flaticon-approved display-3 text-primary"></i>
-                    <h5 class="mt-2">Govt Approved</h5>
-                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                    <h5 class="mt-2">Izin Resmi</h5>
+                    <p>KucingKu telah memiliki izin resmi dari Izin Tempat Sementara Penampungan Hewan yang telah ditandatangani oleh Kepala Sub Bagian Umum dan BAPT.</p>
                 </div>
                 <div class="col-sm-6">
                     <i class="flaticon-medal display-3 text-primary"></i>
-                    <h5 class="mt-2">Award Winning</h5>
-                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                    <h5 class="mt-2">Penghargaan</h5>
+                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
                 </div>
             </div>
-            <a href="" class="btn btn-lg px-4 btn-primary">Learn More</a>
+            <a href="" class="btn btn-lg px-4 btn-primary">Pelajari Selengkapnya</a>
         </div>
     </div>
 </div>
@@ -34,23 +34,23 @@
     <div class="row pt-5">
         <div class="col-lg-3 col-sm-6 mb-5">
             <h5 class="fa fa-user-shield mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">250</h4>
-            <h6 class="text-white m-0">Our Staff</h6>
+            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">4</h4>
+            <h6 class="text-white m-0">Karyawan</h6>
         </div>
         <div class="col-lg-3 col-sm-6 mb-5">
             <h5 class="fa fa-users mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">1500</h4>
-            <h6 class="text-white m-0">Happy Client</h6>
+            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">20</h4>
+            <h6 class="text-white m-0">Adopter</h6>
         </div>
         <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-shield-alt mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">10000</h4>
-            <h6 class="text-white m-0">Project Complete</h6>
+            <h5 class="fa fa-credit-card mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
+            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">50</h4>
+            <h6 class="text-white m-0">Donatur</h6>
         </div>
         <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-award mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">25</h4>
-            <h6 class="text-white m-0">Award Winning</h6>
+            <h5 class="fa fa-paw mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
+            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">125</h4>
+            <h6 class="text-white m-0">Kucing</h6>
         </div>
     </div>
 </div>
@@ -61,68 +61,68 @@
 <div class="container pt-5">
     <div class="row">
         <div class="col-lg-5 mb-5">
-            <h5 class="text-primary mb-3">Why Choose Us?</h5>
-            <h1 class="mb-4">Top Level Security</h1>
-            <img class="img-thumbnail mb-4 p-3" src="img/feature.jpg" alt="Image">
+            <h5 class="text-primary mb-3">Kenapa Anda sebaiknya memilih KucingKu?</h5>
+            <h1 class="mb-4">Cat Shelter di Kota Surabaya!</h1>
+            <img class="img-thumbnail mb-4 p-3" src="img/catshelter.jpg" alt="Image">
             <p>
-                Ea tempor ipsum kasd clita. Sea diam amet et rebum sit stet, vero sea est diam et sit ea sit et ea no
+                KucingKu merupakan sebuah tempat penampungan kucing yang terletak di Kota Surabaya pertama yang memberikan pelayanan secara online. Lalu, 
             </p>
-            <a href="" class="btn btn-lg btn-primary mt-2">Learn More</a>
+            <a href="" class="btn btn-lg btn-primary mt-2">Lanjutkan membaca</a>
         </div>
         <div class="col-lg-7">
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-policeman font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">High Security</h6>
-                        </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-bodyguard font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">Trained Guards</h6>
-                        </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex align-items-center mb-3">
                             <h3 class="flaticon-approved font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">Govt Approved</h6>
+                            <h6 class="text-truncate m-0">Izin Resmi</h6>
                         </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
+                        <p>KucingKu telah memiliki izin resmi dari pemerintah, sehingga segala aktivitas yang terjadi merupakan aktivitas yang legal.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-medal font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">Award Winning</h6>
+                            <h3 class="flaticon-health font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h6 class="text-truncate m-0">Kesehatan dan Kebersihan</h6>
                         </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
+                        <p>Para kucing yang mendapatkan cinta dan kasih sayang dari para karyawan, sehingga kesehatan dan kebersihan kucing tentu terjaga.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-helmet font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">Latest Equipments</h6>
+                            <h3 class="flaticon-staff font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h6 class="text-truncate m-0">Karyawan Terpilih</h6>
                         </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
+                        <p>Karyawan yang bekerja sebagai penjaga cat shelter telah memenuhi syarat dan ketentuan resmi, sehingga kualitas pelayanannya terjamin.</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-surveillance font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                            <h6 class="text-truncate m-0">24/7 Support</h6>
+                            <h3 class="flaticon-website font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h6 class="text-truncate m-0">Website Resmi</h6>
                         </div>
-                        <p>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos rebum sit</p>
+                        <p>Selain pelayanan secara offline, KucingKu juga memiliki website resmi yang dapat diakses setiap saat.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center mb-3">
+                            <h3 class="flaticon-security font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h6 class="text-truncate m-0">Keamanan dan Kerahasiaan</h6>
+                        </div>
+                        <p>Kucingku memberikan jaminan terhadap keamanan maupun kerahasiaan terkait data yang berhubungan dengan kucing maupun pengguna.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center mb-3">
+                            <h3 class="flaticon-service font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h6 class="text-truncate m-0">Pelayanan Terbaik</h6>
+                        </div>
+                        <p>Kucingku selalu siap memberikan pelayanan setiap saat dengan karyawan terbaik untuk menjawab berbagai pertanyaan yang ada.</p>
                     </div>
                 </div>
             </div>
