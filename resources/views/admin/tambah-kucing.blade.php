@@ -28,6 +28,10 @@
               </select>
         </div>
         <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Deskripsi</label>
+            <input type="berat" class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Foto</label>
             <input type="file" class="form-control" id="image" name="image" aria-describedby="emailHelp">
         </div>

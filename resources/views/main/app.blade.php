@@ -96,6 +96,7 @@
                     <a href="{{route('main.about')}}" class="nav-item nav-link">Tentang Kami</a>
                     <a href="{{route('main.kucing')}}" class="nav-item nav-link">Data Kucing</a>
                     <a href="{{route('main.donasi')}}" class="nav-item nav-link">Donasi</a>
+                    <a href="{{route('main.adopter')}}" class="nav-item nav-link">Adopter</a>
                     <a href="{{route('main.blog')}}" class="nav-item nav-link">Blog</a>
                     <a href="{{route('main.kontak')}}" class="nav-item nav-link">Kontak</a>
                 </div>

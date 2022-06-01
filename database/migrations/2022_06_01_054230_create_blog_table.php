@@ -13,14 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('kucing', function (Blueprint $table) {
+        Schema::create('blog', function (Blueprint $table) {
             $table->id();
-            $table->string('ras');
-            $table->string('umur');
-            $table->string('berat');
-            $table->string('jenis_kelamin');
-            $table->string('deskripsi');
+            $table->string('judul');
             $table->string('image');
+            $table->string('penulis');
+            $table->string('deskripsi');
             $table->timestamps();
         });
     }
@@ -32,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kucing');
+        Schema::dropIfExists('blog');
     }
 };

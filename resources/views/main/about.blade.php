@@ -22,40 +22,10 @@
                     <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
                 </div>
             </div>
-            <a href="" class="btn btn-lg px-4 btn-primary">Pelajari Selengkapnya</a>
         </div>
     </div>
 </div>
 <!-- About End -->
-
-
-<!-- Facts Start -->
-<div class="container-fluid bg-primary my-5 py-5 text-center">
-    <div class="row pt-5">
-        <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-user-shield mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">4</h4>
-            <h6 class="text-white m-0">Karyawan</h6>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-users mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">20</h4>
-            <h6 class="text-white m-0">Adopter</h6>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-credit-card mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">50</h4>
-            <h6 class="text-white m-0">Donatur</h6>
-        </div>
-        <div class="col-lg-3 col-sm-6 mb-5">
-            <h5 class="fa fa-paw mb-4 d-inline-flex align-items-center justify-content-center border rounded-circle text-white" style="width: 50px; height: 50px;"></h5>
-            <h4 class="display-4 text-white mb-3" data-toggle="counter-up">125</h4>
-            <h6 class="text-white m-0">Kucing</h6>
-        </div>
-    </div>
-</div>
-<!-- Facts End -->
-
 
 <!-- Features Start -->
 <div class="container pt-5">
@@ -65,9 +35,8 @@
             <h1 class="mb-4">Cat Shelter di Kota Surabaya!</h1>
             <img class="img-thumbnail mb-4 p-3" src="img/catshelter.jpg" alt="Image">
             <p>
-                KucingKu merupakan sebuah tempat penampungan kucing yang terletak di Kota Surabaya pertama yang memberikan pelayanan secara online. Lalu, 
+                KucingKu merupakan sebuah tempat penampungan kucing yang terletak di Kota Surabaya pertama yang memberikan pelayanan secara online. Lalu,
             </p>
-            <a href="" class="btn btn-lg btn-primary mt-2">Lanjutkan membaca</a>
         </div>
         <div class="col-lg-7">
             <div class="row">
@@ -130,23 +99,6 @@
     </div>
 </div>
 <!-- Features End -->
-
-
-<!-- Subscribe Start -->
-<div class="container-fluid bg-primary my-5 py-5 text-center">
-    <h1 class="text-white font-weight-bold mt-5 mb-3">Subscribe Our Newsletter</h1>
-    <p class="text-white mb-4">Subscribe and get Our latest article in your inbox</p>
-    <form class="form-inline justify-content-center mb-5">
-        <div class="input-group">
-            <input type="text" class="form-control-lg" placeholder="Your Email">
-            <div class="input-group-append">
-                <button class="btn btn-secondary" type="submit">Subscribe</button>
-            </div>
-        </div>
-    </form>
-</div>
-<!-- Subscribe End -->
-
 
 <!-- Team Start -->
 <div class="container pt-5 pb-3">

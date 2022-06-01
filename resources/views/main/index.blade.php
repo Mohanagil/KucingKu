@@ -5,19 +5,17 @@
     <div id="blog-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="img/kucing.png" alt="Image">
+                <img class="w-100" src="img/kucing.png" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo bantu kucing di wilayah Surabaya</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">KUCING BUTUH BANTUANMU</h4>
-                    <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Learn More</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="img/kucing-2.jpg" alt="Image">
+                <img class="w-100" src="img/kucing-2.jpg" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo beraksi nyata untuk membantu mereka!</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Cintai kucing, beri whiskas setiap hari</h4>
-                    <a href="" class="btn btn-lg btn-primary mt-3 mt-md-4 px-4">Learn More</a>
                 </div>
             </div>
         </div>
@@ -43,18 +41,19 @@
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
                 <i class="flaticon-policeman display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">Donasi</h5>
-                    <p class="m-0">Terima kasih atas kepedulian Anda melalui donasi untuk memberikan kasih sayang dan kehidupan kucing jalanan. Donasi yang kami terima akan dimanfaatkan untuk memberikan makan kucing jalanan, pengobatan kucing yang sakit, sterilisasi, dan tempat tinggal yang layak. Kami akan berupaya untuk memberikan fasilitas dan layanan yang baik dan layak bagi kucing jalanan.
+                    <br><h5 class="mb-3">Donasi</h5>
+                    <p class="m-0" style="text-align: justify;">Terima kasih atas kepedulian Anda melalui donasi untuk memberikan kasih sayang dan kehidupan kucing jalanan. Donasi yang kami terima akan dimanfaatkan untuk memberikan makan kucing jalanan, pengobatan kucing yang sakit, sterilisasi, dan tempat tinggal yang layak. Kami akan berupaya untuk memberikan fasilitas dan layanan yang baik dan layak bagi kucing jalanan.
                     </p>
                 </div>
             </div>
+            <br>
         </div>
         <div class="col-lg-4 p-0">
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
                 <i class="flaticon-helmet display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">Adopsi</h5>
-                    <p class="m-0">KucingKu memiliki program adopsi yang diperuntukan bagi Anda yang ingin mengadopsi para kucing jalanan di wilayah Suarabaya. Kami berupaya mencarai adopter yang mau menerima kucing dengan tangan terbuka dalam kondisi apa pun. Jika Anda berminat menjadi adopter maka baca ketentuan dan mengisi formulir adopsi kucing.
+                    <br><h5 class="mb-3">Adopsi</h5>
+                    <p class="m-0" style="text-align: justify;">KucingKu memiliki program adopsi yang diperuntukan bagi Anda yang ingin mengadopsi para kucing jalanan di wilayah Suarabaya. Kami berupaya mencari adopter yang mau menerima kucing dengan tangan terbuka dalam kondisi apa pun. Jika Anda berminat menjadi adopter maka baca ketentuan dan mengisi formulir adopsi kucing.
                     </p>
                 </div>
             </div>
@@ -64,7 +63,7 @@
                 <i class="flaticon-surveillance display-3 text-primary mr-4"></i>
                 <div class="">
                     <h5 class="mb-3">Informasi</h5>
-                    <p class="m-0">Temukan sekilas informasi di menu Blog kami. Kami menyediakan berbagai informasi mengenai cara memelihara kucing, perawatan kucing, dan informasi lainnya dalam bentuk konten di Blog kami. Artikel dalam blog kami dapat dibaca dan disebarluaskan kembali.
+                    <p class="m-0" style="text-align: justify;">Temukan sekilas informasi di menu Blog kami. Kami menyediakan berbagai informasi mengenai cara memelihara kucing, perawatan kucing, dan informasi lainnya dalam bentuk konten di Blog kami. Artikel dalam blog kami dapat dibaca dan disebarluaskan kembali.
                     </p>
                 </div>
             </div>

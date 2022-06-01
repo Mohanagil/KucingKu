@@ -36,6 +36,12 @@ class MainController extends Controller
         return view('main.kucing-list');
     }
 
+    //untuk menampilkan halaman edit data kucing admin
+    public function adopter()
+    {
+        return view('main.adopter');
+    }
+
      //untuk menampilkan halaman blog
      public function blog()
      {

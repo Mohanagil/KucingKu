@@ -29,6 +29,7 @@ Route::prefix('/')->name('main.')->group(function () {
     Route::get('/about',[MainController::class,'about'])->name('about');
     Route::get('/kontak',[MainController::class,'kontak'])->name('kontak');
     Route::get('/donasi',[MainController::class,'donasi'])->name('donasi');
+    Route::get('/adopter',[MainController::class,'adopter'])->name('adopter');
     Route::get('/blog',[MainController::class,'blog'])->name('blog');
     Route::get('/list-kucing',[MainController::class,'kucing'])->name('kucing');
 });
@@ -39,6 +40,8 @@ Route::prefix('/kucing')->name('kucing.')->group(function () {
     Route::get('/', [KucingController::class, 'index'])->name('index');
     Route::get('/data',[KucingController::class,'data'])->name('data');
     Route::get('/create', [KucingController::class, 'create'])->name('tambah');
-    Route::get('/edit', [KucingController::class, 'edit'])->name('edit');
+    Route::get('/edit/{id?}', [KucingController::class, 'edit'])->name('edit');
+    Route::put('/update/{id?}', [KucingController::class, 'update'])->name('update');
+    Route::get('/delete/{id?}', [KucingController::class, 'destroy'])->name('destroy');
     Route::post('/store', [KucingController::class, 'store'])->name('store');
 });

@@ -17,6 +17,7 @@
                         <th>Umur</th>
                         <th>Berat</th>
                         <th>Jenis Kelamin</th>
+                        <th>Opsi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -60,6 +61,10 @@
                 {
                     data: 'jenis_kelamin',
                     name: 'jenis_kelamin'
+                },
+                {
+                    data: 'action',
+                    name: 'action'
                 },
             ]
         });

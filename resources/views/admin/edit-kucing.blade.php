@@ -5,30 +5,36 @@
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Edit Cat Data</li>
     </ol>
-    <form>
+    <form action="{{route('kucing.update',$kucing->id)}}" method="POST" enctype="multipart/form-data">
+        @csrf
+        @method('PUT')
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ras </label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <input type="text" class="form-control" id="ras" name="ras" aria-describedby="emailHelp" value="{{$kucing->ras}}" required="">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Umur</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="text" class="form-control" id="umur" name="umur" aria-describedby="emailHelp" value="{{$kucing->umur}}" required="">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Berat (Kg)</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="text" class="form-control" id="berat" name="berat" aria-describedby="emailHelp" value="{{$kucing->berat}}" required="">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
-            <select class="form-select" aria-label="Default select example" required>
-                <option selected disabled>Pilih Jenis Kelamin</option>
-                <option value="1">Jantan</option>
-                <option value="2">Betina</option>
-              </select>
+            <select class="form-select" aria-label="Default select example" name="jenis_kelamin">
+                <option disabled>Pilih Jenis Kelamin</option>
+                <option {{$kucing->jenis_kelamin == 'jantan'  ? 'selected' : ''}} value="Jantan">Jantan</option>
+                <option {{$kucing->jenis_kelamin == 'betina'  ? 'selected' : ''}} value="Betina">Betina</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Deskripsi</label>
+            <input type="berat" class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp" value="{{$kucing->deskripsi}}" required="">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Foto</label>
-            <input type="file" class="form-control" id="image" name="image" aria-describedby="emailHelp" required>
+            <input type="file" class="form-control" id="image" name="image" aria-describedby="emailHelp">
         </div>
         <button type="submit" class="btn btn-primary">Simpan</button>
       </form>
