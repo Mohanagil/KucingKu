@@ -7,15 +7,15 @@
             <div class="carousel-item active">
                 <img class="w-100" src="img/kucing.png" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <h4 class="text-primary m-0">Ayo bantu kucing di wilayah Surabaya</h4>
+                    <h4 class="text-primary m-0">Ayo bantu kucing di wilayah Kota Surabaya!</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">KUCING BUTUH BANTUANMU</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="img/kucing-2.jpg" alt="Image" style="height: 800px;width: 1366px">
+                <img class="w-100" src="img/bgkucingku.jpg" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo beraksi nyata untuk membantu mereka!</h4>
-                    <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Cintai kucing, beri whiskas setiap hari</h4>
+                    <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Yuk, bantu mereka lewat KucingKu!</h4>
                 </div>
             </div>
         </div>
@@ -80,18 +80,18 @@
             <img width="100%" class="img-fluid" src="img/kucing-jalanan.jpg" alt="Image">
         </div>
         <div class="col-lg-6 py-5 py-lg-0 px-3 px-lg-5">
-            <h1 class="mb-4">They Deserves Better</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero</p>
+            <h1 class="mb-4">AYO SELAMATKAN MEREKA</h1>
+            <p>Mari bantu para kucing jalanan melalui KucingKu dengan mengadopsi mereka atau berdonasi, sehingga dapat membantu kami dalam memberikan cinta kepada mereka.</p>
             <div class="row py-2">
                 <div class="col-sm-6">
                     <i class="flaticon-approved display-3 text-primary"></i>
-                    <h5 class="mt-2">Govt Approved</h5>
-                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                    <h5 class="mt-2">Izin Resmi</h5>
+                    <p>KucingKu telah memiliki izin resmi dari Izin Tempat Sementara Penampungan Hewan yang telah ditandatangani oleh Kepala Sub Bagian Umum dan BAPT.</p>
                 </div>
                 <div class="col-sm-6">
                     <i class="flaticon-medal display-3 text-primary"></i>
-                    <h5 class="mt-2">Award Winning</h5>
-                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                    <h5 class="mt-2">Penghargaan</h5>
+                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan</p>
                 </div>
             </div>
             <a href="" class="btn btn-lg px-4 btn-primary">Adopt</a>
@@ -187,16 +187,17 @@
 <!-- Team Start -->
 <div class="container pt-5 pb-3">
     <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Security Officers</h5>
-        <h1 class="m-0">Meet Our Security Officers</h1>
+        <h5 class="text-primary mb-3">Karywan Kucingku</h5>
+        <h1 class="m-0">Yuk, berkenalan dengan mereka!</h1>
     </div>
     <div class="row">
         <div class="col-lg-6 mb-4">
             <div class="row mb-2 align-items-center">
                 <div class="col-6 text-right">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
+                    <h6>Puji Septiyana Nautika</h6>
+                    <h6>NIM. 20051214036</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Animal Caretaker</h6>
+                    <p> Kami akan selalu memastikan kesehatan dan kebahagian semua kucing yang berada di cat shelter kami. Stay healthy and paw-sitive!</p>
                     <div class="d-flex justify-content-end">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
@@ -215,9 +216,10 @@
                     <img class="img-thumbnail p-3" src="img/team-2.jpg" alt="Image">
                 </div>
                 <div class="col-6 text-left">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
+                    <h6>Reynisa Beta Nurlyan</h6>
+                    <h6>NIM. 20051214044</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Costumer Service</h6>
+                    <p>Kami akan selalu sedia untuk memberikan kualitas pelayanan yang terbaik kepada Anda dengan penuh cinta setiap saat. Have a purr-fect day!</p>
                     <div class="d-flex justify-content-start">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
@@ -230,9 +232,10 @@
         <div class="col-lg-6 mb-4">
             <div class="row mb-2 align-items-center">
                 <div class="col-6 text-right">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
+                    <h6>Muhammad Agil Maulana</h6>
+                    <h6>NIM. 20051214074</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Donation Coordinator</h6>
+                    <p>Kami akan selalu berusaha untuk menyalurkan cinta kasih yang telah Anda berikan kepada pada kucing dengan baik. We love cats the meow-st!.</p>
                     <div class="d-flex justify-content-end">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
@@ -251,9 +254,10 @@
                     <img class="img-thumbnail p-3" src="img/team-4.jpg" alt="Image">
                 </div>
                 <div class="col-6 text-left">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
+                    <h6>Rendy Pratama</h6>
+                    <h6>NIM. 20051214088</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Adoption Coordinator</h6>
+                    <p>Kami berharap melalui KucingKu, kami dapat mempertemukan mereka kepada keluarga baru yang menyambut dengan penuh cinta. Be happy fur-ever! </p>
                     <div class="d-flex justify-content-start">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>

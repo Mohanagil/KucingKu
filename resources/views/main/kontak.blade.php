@@ -3,8 +3,8 @@
 <!-- Contact Start -->
 <div class="container-fluid pt-5">
     <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Contact Us</h5>
-        <h1 class="m-0">Contact For Any Query</h1>
+        <h5 class="text-primary mb-3">Kontak Kami</h5>
+        <h1 class="m-0">Mari terhubung dengan Kucingku!</h1>
     </div>
     <div class="row">
         <div class="col-12 p-0">
