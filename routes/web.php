@@ -43,6 +43,7 @@ Route::prefix('/kucing')->name('kucing.')->group(function () {
     Route::get('/data',[KucingController::class,'data'])->name('data');
     Route::get('/create', [KucingController::class, 'create'])->name('tambah');
     Route::get('/edit/{id?}', [KucingController::class, 'edit'])->name('edit');
+    Route::get('/show/{id?}', [KucingController::class, 'show'])->name('detail');
     Route::put('/update/{id?}', [KucingController::class, 'update'])->name('update');
     Route::get('/delete/{id?}', [KucingController::class, 'destroy'])->name('destroy');
     Route::post('/store', [KucingController::class, 'store'])->name('store');
@@ -55,6 +56,7 @@ Route::prefix('/blog')->name('blog.')->group(function () {
     Route::get('/create', [BlogController::class, 'create'])->name('tambah');
     Route::get('/edit/{id?}', [BlogController::class, 'edit'])->name('edit');
     Route::put('/update/{id?}', [BlogController::class, 'update'])->name('update');
+    Route::get('/show/{id?}', [BlogController::class, 'show'])->name('detail');
     Route::get('/delete/{id?}', [BlogController::class, 'destroy'])->name('destroy');
     Route::post('/store', [BlogController::class, 'store'])->name('store');
 });
@@ -62,10 +64,8 @@ Route::prefix('/blog')->name('blog.')->group(function () {
 # route untuk adopter
 Route::prefix('/adopter')->name('adopter.')->group(function () {
     Route::get('/', [AdopterController::class, 'index'])->name('index');
-    // Route::get('/data',[BlogController::class,'data'])->name('data');
-    // Route::get('/create', [BlogController::class, 'create'])->name('tambah');
-    // Route::get('/edit/{id?}', [BlogController::class, 'edit'])->name('edit');
-    // Route::put('/update/{id?}', [BlogController::class, 'update'])->name('update');
-    // Route::get('/delete/{id?}', [BlogController::class, 'destroy'])->name('destroy');
+    Route::get('/data',[AdopterController::class,'data'])->name('data');
+    Route::get('/show/{id?}', [AdopterController::class, 'show'])->name('detail');
+    Route::get('/delete/{id?}', [AdopterController::class, 'destroy'])->name('destroy');
     Route::post('/store', [AdopterController::class, 'store'])->name('store');
 });

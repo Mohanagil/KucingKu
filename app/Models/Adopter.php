@@ -11,7 +11,7 @@ class Adopter extends Model
     protected $guarded = [];
     protected $table = 'adopter';
 
-    public function kucing(){
-        return $this->belongsTo(Kucing::class,'nama','ras','id');
+    public function kucing_data(){
+        return $this->belongsTo(Kucing::class,'kucing','id');
     }
 }

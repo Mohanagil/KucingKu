@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Kucing;
 
 class MainController extends Controller
 {
@@ -41,4 +42,12 @@ class MainController extends Controller
      {
          return view('main.blog');
      }
+
+    //untuk menampilkan halaman form adopter di main
+   public function adopter()
+    {
+       //menampilkan data kucing di form adopter
+       $kucing = Kucing::all();
+       return view('main.adopter',compact('kucing'));
+    }
 }

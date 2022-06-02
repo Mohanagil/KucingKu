@@ -58,7 +58,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-cat"></i></div>
                                 Kucing
                             </a>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{route('adopter.index')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user-alt"></i></div>
                                 Adopter
                             </a>

@@ -23,8 +23,8 @@ class KucingController extends Controller
         return Datatables::of($kucing)
             ->addIndexColumn()
             ->addColumn('action', function ($user) {
-                return '<a href="'.route('kucing.edit',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
-                route('kucing.destroy',$user->id).'" class="btn btn-xs btn-danger"><i class="glyphicon glyphicon-edit"></i> Hapus</a>';;
+                return '<a href="'.route('kucing.detail',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Detail</a>'.'<a href="'.route('kucing.edit',$user->id).'" class="btn btn-xs btn-warning"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
+                route('kucing.destroy',$user->id).'" class="btn btn-xs btn-danger"><i class="glyphicon glyphicon-edit"></i> Hapus</a>';
 
             })
             ->editColumn('image', function ($query) {
@@ -83,8 +83,15 @@ class KucingController extends Controller
      public function edit($id)
      {
          $kucing = Kucing::find($id);
-         return view('admin.edit-kucing',compact('kucing'));
+         return view('admin.detail-kucing',compact('kucing'));
      }
+
+      //untuk menampilkan halaman detail data kucing admin
+      public function show($id)
+      {
+          $kucing = Kucing::find($id);
+          return view('admin.detail-kucing',compact('kucing'));
+      }
 
      //untuk mengupdate data kucing admin
      public function update(Request $request,$id)

@@ -23,7 +23,7 @@ class BlogController extends Controller
         return Datatables::of($blog)
             ->addIndexColumn()
             ->addColumn('action', function ($user) {
-                return '<a href="'.route('blog.edit',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
+                return '<a href="'.route('blog.detail',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Detail</a>'.'<a href="'.route('blog.edit',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
                 route('blog.destroy',$user->id).'" class="btn btn-xs btn-danger"><i class="glyphicon glyphicon-edit"></i> Hapus</a>';;
 
             })
@@ -144,4 +144,11 @@ class BlogController extends Controller
             return redirect()->route('blog.index');
         }
     }
+
+     //untuk menampilkan halaman detail data kucing admin
+     public function show($id)
+     {
+         $blog = Blog::find($id);
+         return view('admin.detail-blog',compact('blog'));
+     }
 }
