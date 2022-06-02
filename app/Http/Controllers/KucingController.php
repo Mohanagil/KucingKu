@@ -44,7 +44,8 @@ class KucingController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'image'          => 'required|image|mimes:png,jpg,jpeg',
+            'image'         => 'required|image|mimes:png,jpg,jpeg',
+            'nama'          => 'required',
             'ras'           => 'required',
             'umur'          => 'required',
             'berat'         => 'required',
@@ -57,7 +58,8 @@ class KucingController extends Controller
         $image->storeAs('public/kucing', $image->hashName());
 
         $kucing = Kucing::create([
-            'image'          => $image->hashName(),
+            'image'         => $image->hashName(),
+            'nama'          => $request->nama,
             'ras'           => $request->ras,
             'umur'          => $request->umur,
             'berat'         => $request->berat,
@@ -88,6 +90,7 @@ class KucingController extends Controller
      public function update(Request $request,$id)
     {
         $this->validate($request,[
+            'nama'          => 'required',
             'ras'           => 'required',
             'umur'          => 'required',
             'berat'         => 'required',
@@ -100,6 +103,7 @@ class KucingController extends Controller
             if($request->file('image') == ""){
 
                 $kucing->update([
+                    'nama'          => $request->nama,
                     'ras'           => $request->ras,
                     'umur'          => $request->umur,
                     'berat'         => $request->berat,
@@ -117,6 +121,7 @@ class KucingController extends Controller
 
                 $kucing->update([
                     'image'         => $image->hashName(),
+                    'nama'          => $request->nama,
                     'ras'           => $request->ras,
                     'umur'          => $request->umur,
                     'berat'         => $request->berat,

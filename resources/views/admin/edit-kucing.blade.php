@@ -9,6 +9,10 @@
         @csrf
         @method('PUT')
         <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nama </label>
+            <input type="text" class="form-control" id="nama" name="nama" aria-describedby="emailHelp" value="{{$kucing->nama}}" required="">
+          </div>
+        <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Ras </label>
           <input type="text" class="form-control" id="ras" name="ras" aria-describedby="emailHelp" value="{{$kucing->ras}}" required="">
         </div>

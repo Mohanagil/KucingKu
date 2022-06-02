@@ -13,15 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('kucing', function (Blueprint $table) {
+        Schema::create('adopter', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->string('ras');
-            $table->string('umur');
-            $table->string('berat');
-            $table->string('jenis_kelamin');
-            $table->string('deskripsi');
-            $table->string('image');
+            $table->string('alamat');
+            $table->string('no_ktp');
+            $table->string('no_hp');
+            $table->string('email');
+            $table->string('profesi');
+            $table->string('sosmed');
+            $table->string('kucing');
             $table->timestamps();
         });
     }
@@ -33,6 +34,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kucing');
+        Schema::dropIfExists('adopter');
     }
 };

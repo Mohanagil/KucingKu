@@ -13,9 +13,9 @@
                     <tr>
                         <th>No</th>
                         <th>Foto</th>
+                        <th>Nama</th>
                         <th>Ras</th>
                         <th>Umur</th>
-                        <th>Berat</th>
                         <th>Jenis Kelamin</th>
                         <th>Opsi</th>
                     </tr>
@@ -47,16 +47,16 @@
                     name: 'image'
                 },
                 {
+                    data: 'nama',
+                    name: 'nama'
+                },
+                {
                     data: 'ras',
                     name: 'ras'
                 },
                 {
                     data: 'umur',
                     name: 'umur'
-                },
-                {
-                    data: 'berat',
-                    name: 'berat'
                 },
                 {
                     data: 'jenis_kelamin',
