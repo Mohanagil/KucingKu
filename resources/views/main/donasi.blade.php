@@ -13,27 +13,19 @@
         <div class="col-12">
             <div class="contact-form bg-white">
                 <div id="success"></div>
-                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                    <div class="control-group">
-                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                        <p class="help-block text-danger"></p>
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
                     </div>
-                    <div class="control-group">
-                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                        <p class="help-block text-danger"></p>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="control-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                        <p class="help-block text-danger"></p>
+                    <div class="card-footer text-muted">
+                      2 days ago
                     </div>
-                    <div class="control-group">
-                        <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                        <p class="help-block text-danger"></p>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary" type="submit" id="sendMessageButton">Send Message</button>
-                    </div>
-                </form>
+                  </div>
             </div>
         </div>
     </div>

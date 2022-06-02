@@ -17,9 +17,9 @@
                     <p>KucingKu telah memiliki izin resmi dari Izin Tempat Sementara Penampungan Hewan yang telah ditandatangani oleh Kepala Sub Bagian Umum dan BAPT.</p>
                 </div>
                 <div class="col-sm-6">
-                    <i class="flaticon-medal display-3 text-primary"></i>
+                    <i class="fa fa-user-shield display-3 text-primary"></i>
                     <h5 class="mt-2">Penghargaan</h5>
-                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
+                    <p >KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
                 </div>
             </div>
         </div>
