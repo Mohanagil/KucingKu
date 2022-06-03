@@ -17,7 +17,7 @@
                     <img src="img/kucing-blog3.jpeg" class="card-img-top" alt="Image">
                         <div class="card-body">
                         <h5 class="card-title">donasi untuk kucing jalanan</h5>
-                        <p class="card-text">Mari bersama membantu kucing jalanan mealui donasi ini. Salurkan donasi Anda melalui transfer ke rekening bank kami atau e-money di bawah ini.</p>
+                        <p class="card-text">Mari bersama membantu kucing jalanan melalui donasi ini. Salurkan donasi Anda melalui transfer ke rekening bank kami atau e-money di bawah ini.</p>
                         <p style="text-align: left; font-size: 20px; font-weight: bold; color: black ">Donasi dengan Transfer Rekening Bank</p>
                         <p class="card-text">Rekening ini dikhusukan untuk kegiatan donasi KucingKu</p>
                         <table class="table">

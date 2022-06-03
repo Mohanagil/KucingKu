@@ -17,7 +17,7 @@
                     <p>KucingKu telah memiliki izin resmi dari Izin Tempat Sementara Penampungan Hewan yang telah ditandatangani oleh Kepala Sub Bagian Umum dan BAPT.</p>
                 </div>
                 <div class="col-sm-6">
-                    <i class="fa fa-user-shield display-3 text-primary"></i>
+                    <i class="flaticon-medal display-3 text-primary"></i>
                     <h5 class="mt-2">Penghargaan</h5>
                     <p >KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
                 </div>
@@ -52,7 +52,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-health font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3  class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Kesehatan dan Kebersihan</h6>
                         </div>
                         <p>Para kucing yang mendapatkan cinta dan kasih sayang dari para karyawan, sehingga kesehatan dan kebersihan kucing tentu terjaga.</p>
