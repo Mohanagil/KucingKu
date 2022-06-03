@@ -4,6 +4,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\AdopterController;
 use App\Http\Controllers\KucingController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,9 +22,6 @@ Route::get('/', function () {
     return view('main.index');
 });
 
-Route::get('/admin', function () {
-    return view('admin.dashboard');
-});
 
 # route untuk main
 Route::prefix('/')->name('main.')->group(function () {
@@ -71,3 +69,9 @@ Route::prefix('/adopter')->name('adopter.')->group(function () {
     Route::get('/delete/{id?}', [AdopterController::class, 'destroy'])->name('destroy');
     Route::post('/store', [AdopterController::class, 'store'])->name('store');
 });
+
+# route untuk admin
+Route::prefix('/admin')->name('admin.')->group(function () {
+    Route::get('/', [AdminController::class, 'index'])->name('index');
+});
+

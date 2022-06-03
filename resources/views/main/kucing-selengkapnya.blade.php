@@ -20,7 +20,7 @@
             </div>
 
             <div class="media bg-primary text-white mb-4 p-4 p-md-5">
-                <img src="{{asset('storage/kucing/please.png')}}" alt="Image" class="mr-4 bg-primary" style="width:100px;">
+                <img src="{{asset('img/please.png')}}" alt="Image" class="mr-4 bg-primary" style="width:100px;">
                 <div class="media-body">
                     <h5 class="mb-3">Tertarik Dengan Kucing Ini?</h5>
                     <p class="m-0">Ayo salurkan bantuan mu dengan ajukan adopsi :D</p>
