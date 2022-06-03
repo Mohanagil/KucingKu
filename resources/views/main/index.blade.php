@@ -5,14 +5,14 @@
     <div id="blog-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="img/kucing.png" alt="Image" style="height: 800px;width: 1366px">
+                <img class="w-100" src="img/bgkucingku.jpg" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo bantu kucing di wilayah Kota Surabaya!</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">KUCING BUTUH BANTUANMU</h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="img/bgkucingku.jpg" alt="Image" style="height: 800px;width: 1366px">
+                <img class="w-100" src="img/thumb.jpg" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo beraksi nyata untuk membantu mereka!</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Yuk, bantu mereka lewat KucingKu!</h4>
@@ -39,7 +39,7 @@
     <div class="row py-5 py-lg-0">
         <div class="col-lg-4 p-0">
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
-                <i class="flaticon-policeman display-3 text-primary mr-4"></i>
+                <i class="flaticon-home display-3 text-primary mr-4"></i>
                 <div class="">
                     <br><h5 class="mb-3">Donasi</h5>
                     <p class="m-0" style="text-align: justify;">Terima kasih atas kepedulian Anda melalui donasi untuk memberikan kasih sayang dan kehidupan kucing jalanan. Donasi yang kami terima akan dimanfaatkan untuk memberikan makan kucing jalanan, pengobatan kucing yang sakit, sterilisasi, dan tempat tinggal yang layak. Kami akan berupaya untuk memberikan fasilitas dan layanan yang baik dan layak bagi kucing jalanan.
@@ -49,21 +49,21 @@
             <br>
         </div>
         <div class="col-lg-4 p-0">
-            <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
-                <i class="flaticon-helmet display-3 text-primary mr-4"></i>
-                <div class="">
-                    <br><h5 class="mb-3">Adopsi</h5>
-                    <p class="m-0" style="text-align: justify;">KucingKu memiliki program adopsi yang diperuntukan bagi Anda yang ingin mengadopsi para kucing jalanan di wilayah Suarabaya. Kami berupaya mencari adopter yang mau menerima kucing dengan tangan terbuka dalam kondisi apa pun. Jika Anda berminat menjadi adopter maka baca ketentuan dan mengisi formulir adopsi kucing.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 p-0">
             <div class="feature-item d-flex align-items-center px-5">
                 <i class="flaticon-surveillance display-3 text-primary mr-4"></i>
                 <div class="">
                     <h5 class="mb-3">Informasi</h5>
                     <p class="m-0" style="text-align: justify;">Temukan sekilas informasi di menu Blog kami. Kami menyediakan berbagai informasi mengenai cara memelihara kucing, perawatan kucing, dan informasi lainnya dalam bentuk konten di Blog kami. Artikel dalam blog kami dapat dibaca dan disebarluaskan kembali.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 p-0">
+            <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
+                <i class="flaticon-home display-3 text-primary mr-4"></i>
+                <div class="">
+                    <br><h5 class="mb-3">Adopsi</h5>
+                    <p class="m-0" style="text-align: justify;">KucingKu memiliki program adopsi yang diperuntukan bagi Anda yang ingin mengadopsi para kucing jalanan di wilayah Suarabaya. Kami berupaya mencari adopter yang mau menerima kucing dengan tangan terbuka dalam kondisi apa pun. Jika Anda berminat menjadi adopter maka baca ketentuan dan mengisi formulir adopsi kucing.
                     </p>
                 </div>
             </div>
@@ -91,9 +91,10 @@
                 <div class="col-sm-6">
                     <i class="flaticon-medal display-3 text-primary"></i>
                     <h5 class="mt-2">Penghargaan</h5>
-                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
+                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan</p>
                 </div>
             </div>
+  
         </div>
     </div>
 </div>
@@ -127,7 +128,7 @@
                     <h6 class="card-title text-white text-truncate m-0">Vaccination</h6>
                 </div>
                 <div class="card-footer">
-                    Layanan vaksinasi kepada kucing agar tubuh mereka memiliki sistem kekebalan tubuh yang lebih kuat, sehingga tidak mudah terpapar penyakit.
+                    Layanan vaksinasi kepada kucing agar tubuh mereka memiliki sistem kekebalan tubuh yang lebih kuat, sehingga terjaga kesehatannya.
                 </div>
             </div>
         </div>
@@ -175,7 +176,7 @@
                     <h6 class="card-title text-white text-truncate m-0">AD - Adoption & Donation</h6>
                 </div>
                 <div class="card-footer">
-                    Layanan adopsi maupun donasi dapat membantu Anda untuk mengadopsi kucing pada shelter kami maupun berdonasi untuk keperluan mereka.
+                    Layanan AD bertujuan pada layanan pengadopasian kucing pada shelter kami maupun berdonasi untuk keperluan mereka.
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-approved font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3 class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Izin Resmi</h6>
                         </div>
                         <p>KucingKu telah memiliki izin resmi dari pemerintah, sehingga segala aktivitas yang terjadi merupakan aktivitas yang legal.</p>
@@ -61,7 +61,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-staff font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3 class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Karyawan Terpilih</h6>
                         </div>
                         <p>Karyawan yang bekerja sebagai penjaga cat shelter telah memenuhi syarat dan ketentuan resmi, sehingga kualitas pelayanannya terjamin.</p>
@@ -70,7 +70,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-website font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3 class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Website Resmi</h6>
                         </div>
                         <p>Selain pelayanan secara offline, KucingKu juga memiliki website resmi yang dapat diakses setiap saat.</p>
@@ -79,7 +79,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-security font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3 class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Keamanan dan Kerahasiaan</h6>
                         </div>
                         <p>Kucingku memberikan jaminan terhadap keamanan maupun kerahasiaan terkait data yang berhubungan dengan kucing maupun pengguna.</p>
@@ -88,7 +88,7 @@
                 <div class="col-md-6 mb-4">
                     <div class="d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
-                            <h3 class="flaticon-service font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                            <h3 class="fa fa-heart font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
                             <h6 class="text-truncate m-0">Pelayanan Terbaik</h6>
                         </div>
                         <p>Kucingku selalu siap memberikan pelayanan setiap saat dengan karyawan terbaik untuk menjawab berbagai pertanyaan yang ada.</p>
@@ -100,86 +100,17 @@
 </div>
 <!-- Features End -->
 
-<!-- Team Start -->
-<div class="container pt-5 pb-3">
-    <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Security Officers</h5>
-        <h1 class="m-0">Meet Our Security Officers</h1>
-    </div>
-    <div class="row">
-        <div class="col-lg-6 mb-4">
-            <div class="row mb-2 align-items-center">
-                <div class="col-6 text-right">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
-                    <div class="d-flex justify-content-end">
-                        <a href=""><i class="fab fa-twitter mr-3"></i></a>
-                        <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mr-3"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-1.jpg" alt="Image">
-                </div>
-            </div>
+<!-- pic Start -->
+<div class="container pt-5">
+    <div class="row align-items-center">
+        <div class="col-lg-5 mb-5">
+            <img class="img-thumbnail mb-4 p-3" src="img/logokk.png" alt="Image" style="width:200px;height:200px;">
+            <p>
+                All Rights Reserved.
+            </p>
         </div>
-        <div class="col-lg-6 mb-4">
-            <div class="row mb-2 align-items-center">
-                <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-2.jpg" alt="Image">
-                </div>
-                <div class="col-6 text-left">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
-                    <div class="d-flex justify-content-start">
-                        <a href=""><i class="fab fa-twitter mr-3"></i></a>
-                        <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mr-3"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <div class="row mb-2 align-items-center">
-                <div class="col-6 text-right">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
-                    <div class="d-flex justify-content-end">
-                        <a href=""><i class="fab fa-twitter mr-3"></i></a>
-                        <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mr-3"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-3.jpg" alt="Image">
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <div class="row mb-2 align-items-center">
-                <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-4.jpg" alt="Image">
-                </div>
-                <div class="col-6 text-left">
-                    <h6>Officer Name</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Designation</h6>
-                    <p>Ipsum tempor tempor dolor no est diam duo dolore, dolor eos dolor amet erat clita amet.</p>
-                    <div class="d-flex justify-content-start">
-                        <a href=""><i class="fab fa-twitter mr-3"></i></a>
-                        <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in mr-3"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-<!-- Team End -->
+<!-- pic End -->
 @endsection
