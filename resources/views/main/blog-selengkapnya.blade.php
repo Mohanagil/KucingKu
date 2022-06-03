@@ -15,7 +15,7 @@
 
             <div class="mb-5">
                 <img class="img-thumbnail mb-4 p-3" src="{{asset('storage/blog/'.$blog->image)}}" alt="Image">
-                <p style="text-align: justify;">{{$blog->deskripsi}}</p>
+                <p style="text-align: justify; white-space: pre-wrap;">{{$blog->deskripsi}}</p>
             </div>
         </div>
     </div>

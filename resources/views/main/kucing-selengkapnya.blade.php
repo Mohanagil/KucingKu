@@ -16,7 +16,7 @@
                 <h6>Umur : {{$kucing->umur}} </h6>
                 <h6>Berat : {{$kucing->berat}} kg </h6>
                 <h6>Jenis Kelamin : {{$kucing->jenis_kelamin}} </h6>
-                <p style="text-align: justify;">{{$kucing->deskripsi}}</p>
+                <p style="text-align: justify; white-space: pre-wrap;">{{$kucing->deskripsi}}</p>
             </div>
 
             <div class="media bg-primary text-white mb-4 p-4 p-md-5">
