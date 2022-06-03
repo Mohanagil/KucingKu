@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('umur');
             $table->string('berat');
             $table->string('jenis_kelamin');
-            $table->string('deskripsi');
+            $table->longText('deskripsi');
             $table->string('image');
             $table->timestamps();
         });
