@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="img/thumb.jpg" alt="Image" style="height: 800px;width: 1366px">
+                <img class="w-100" src="img/cattie.jpg" alt="Image" style="height: 800px;width: 1366px">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <h4 class="text-primary m-0">Ayo beraksi nyata untuk membantu mereka!</h4>
                     <h4 class="display-4 m-0 mt-2 mt-md-3 text-white">Yuk, bantu mereka lewat KucingKu!</h4>
@@ -105,7 +105,7 @@
 <div class="container pt-5">
     <div class="d-flex flex-column text-center mb-5">
         <h5 class="text-primary mb-3">Pelayanan Kami</h5>
-        <h1 class="m-0">Pelayanan Premium KucingKU</h1>
+        <h1 class="m-0">Pelayanan Premium KucingKu</h1>
     </div>
     <div class="row pb-3">
         <div class="col-md-6 col-lg-4 mb-4">
