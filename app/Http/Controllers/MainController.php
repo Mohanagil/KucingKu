@@ -44,7 +44,7 @@ class MainController extends Controller
      }
 
     //untuk menampilkan halaman form adopter di main
-   public function adopter()
+   public function adopt()
     {
        //menampilkan data kucing di form adopter
        $kucing = Kucing::all();
