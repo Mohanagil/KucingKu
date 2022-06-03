@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 use App\Models\Kucing;
 
@@ -34,14 +35,30 @@ class MainController extends Controller
     //untuk menampilkan halaman list kucing
     public function kucing()
     {
-        return view('main.kucing-list');
+        $kucing = Kucing::all();
+        return view('main.kucing-list',compact('kucing'));
     }
 
-     //untuk menampilkan halaman blog
-     public function blog()
-     {
-         return view('main.blog');
-     }
+    //untuk menampilkan halaman detail list kucing
+    public function detailkucing($id)
+    {
+        $kucing = Kucing::find($id);
+        return view('main.kucing-selengkapnya',compact('kucing'));
+    }
+
+    //untuk menampilkan halaman list blog
+    public function blog()
+    {
+        $blog = blog::all();
+        return view('main.blog-list',compact('blog'));
+    }
+
+    //untuk menampilkan halaman detail list blog
+    public function detailblog($id)
+    {
+        $blog = blog::find($id);
+        return view('main.blog-selengkapnya',compact('blog'));
+    }
 
     //untuk menampilkan halaman form adopter di main
    public function adopt()

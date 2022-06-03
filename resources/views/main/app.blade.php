@@ -9,19 +9,19 @@
     <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{asset('img/favicon.ico')}}" rel="icon">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="{{asset('lib/flaticon/font/flaticon.css')}}" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 </head>
 
 <body class="bg-white">
@@ -98,7 +98,7 @@
                     <a href="{{route('main.kucing')}}" class="nav-item nav-link">Data Kucing</a>
                     <a href="{{route('main.donasi')}}" class="nav-item nav-link">Donasi</a>
                     <a href="{{route('main.adopt')}}" class="nav-item nav-link">Adopter</a>
-                    <a href="" class="nav-item nav-link">Blog</a>
+                    <a href="{{route('main.blog')}}" class="nav-item nav-link">Blog</a>
                     <a href="{{route('main.kontak')}}" class="nav-item nav-link">Kontak</a>
                 </div>
             </div>
@@ -122,22 +122,22 @@
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Fitur KucingKu</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Tentang Kami</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Data Kucing</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Donasi</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Adopter</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Kontak</a>
+                            <a class="text-white mb-2" href="{{route('main.index')}}"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
+                            <a class="text-white mb-2" href="{{route('main.about')}}"><i class="fa fa-angle-right mr-2"></i>Tentang Kami</a>
+                            <a class="text-white mb-2" href="{{route('main.kucing')}}"><i class="fa fa-angle-right mr-2"></i>Data Kucing</a>
+                            <a class="text-white mb-2" href="{{route('main.donasi')}}"><i class="fa fa-angle-right mr-2"></i>Donasi</a>
+                            <a class="text-white mb-2" href="{{route('main.adopt')}}"><i class="fa fa-angle-right mr-2"></i>Adopter</a>
+                            <a class="text-white" href="{{route('main.kontak')}}"><i class="fa fa-angle-right mr-2"></i>Kontak</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
                         <h5 class="text-primary mb-4">Fitur Popular</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Data Kucing</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Donasi</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Adopter</a>
-                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Kontak</a>
+                            <a class="text-white mb-2" href="{{route('main.index')}}"><i class="fa fa-angle-right mr-2"></i>Beranda</a>
+                            <a class="text-white mb-2" href="{{route('main.kucing')}}"><i class="fa fa-angle-right mr-2"></i>Data Kucing</a>
+                            <a class="text-white mb-2" href="{{route('main.donasi')}}"><i class="fa fa-angle-right mr-2"></i>Donasi</a>
+                            <a class="text-white mb-2" href="{{route('main.adopt')}}"><i class="fa fa-angle-right mr-2"></i>Adopter</a>
+                            <a class="text-white" href="{{route('main.kontak')}}"><i class="fa fa-angle-right mr-2"></i>Kontak</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
@@ -161,22 +161,6 @@
                     &copy; <a class="text-white font-weight-bold" href="#">KucingKu</a>. All Rights Reserved.
                 </p>
             </div>
-            <div class="col-md-6 text-center text-md-right">
-                <ul class="nav d-inline-flex">
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Privacy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Terms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white py-0" href="#">Help</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
     <!-- Footer End -->
@@ -189,17 +173,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="{{asset('lib/easing/easing.min.js')}}"></script>
+    <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{asset('lib/counterup/counterup.min.js')}}"></script>
+    <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="{{asset('mail/jqBootstrapValidation.min.js')}}"></script>
+    <script src="{{asset('mail/contact.js')}}"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 
 </html>

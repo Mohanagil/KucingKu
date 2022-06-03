@@ -1,21 +1,25 @@
 @extends('main.app')
 @section('content')
-<!-- List Start -->
-<div class="container pt-5">
+ <!-- Blog Start -->
+ <div class="container pt-5">
     <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Data Kucing</h5>
-        <h1 class="m-0">List Kucing di KucingKu</h1>
+        <h5 class="text-primary mb-3">Blog Artikel</h5>
+        <h1 class="m-0">yang terbaru di KucingKu</h1>
     </div>
-    @foreach ($kucing as $cat)
+    @foreach ($blog as $blogs)
+    <div class="row pb-3">
         <div class="col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img href="{{route('main.kucing_selengkapnya',$cat->id)}}" class="card-img-top" src="{{asset('storage/kucing/'.$cat->image)}}" alt="">
-                <div href="{{route('main.kucing_selengkapnya',$cat->id)}}" class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h6 class="card-title text-white text-truncate m-0 ml-3">{{$cat->nama}} - {{$cat->ras}}</h6>
-                    <a href="{{route('main.kucing_selengkapnya',$cat->id)}}" style="width: 45px; height: 45px;" ></a>
+                <img class="card-img-top" src="{{asset('storage/blog/'.$blogs->image)}}" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h6 class="card-title text-white text-truncate m-0 ml-3">{{$blogs->judul}}</h6>
+                    <a href="" style="width: 45px; height: 45px;"></a>
                 </div>
-                <div class="card-footer py-3 px-4" href="{{route('main.kucing_selengkapnya')}}" >
-                    <p class="m-0" >{{substr($cat->deskripsi, 0,  150)}}...<a href="{{route('main.kucing_selengkapnya',$cat->id)}}"> Selengkapnya</a></p>
+                <div class="card-footer py-3 px-4">
+                    <div class="d-flex mb-2">
+                        <small class="mr-3"><i class="fa fa-user text-primary"></i>{{$blogs->penulis}}</small>
+                    </div>
+                    <p class="m-0" >{{substr($blogs->deskripsi, 0,  150)}}...<a href="{{route('main.blog_selengkapnya',$blogs->id)}}"> Selengkapnya</a></p>
                 </div>
             </div>
         </div>
@@ -43,5 +47,5 @@
         </div>
     </div>
 </div>
-<!-- List End -->
+<!-- Blog End -->
 @endsection
