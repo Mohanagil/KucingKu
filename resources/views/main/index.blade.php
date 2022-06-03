@@ -91,10 +91,9 @@
                 <div class="col-sm-6">
                     <i class="flaticon-medal display-3 text-primary"></i>
                     <h5 class="mt-2">Penghargaan</h5>
-                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan</p>
+                    <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan.</p>
                 </div>
             </div>
-            <a href="" class="btn btn-lg px-4 btn-primary">Adopt</a>
         </div>
     </div>
 </div>
@@ -104,79 +103,79 @@
 <!-- Services Start -->
 <div class="container pt-5">
     <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Our Services</h5>
-        <h1 class="m-0">Premium Security Services</h1>
+        <h5 class="text-primary mb-3">Pelayanan Kami</h5>
+        <h1 class="m-0">Pelayanan Premium KucingKU</h1>
     </div>
     <div class="row pb-3">
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-1.jpg" alt="">
+                <img class="card-img-top" src="img/konsul.jpg" alt="">
                 <div class="card-body bg-secondary d-flex align-items-center p-0">
                     <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Office Security</h6>
+                    <h6 class="card-title text-white text-truncate m-0">Consultation</h6>
                 </div>
                 <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
+                    Layanan konsultasi dapat memudahkan Anda untuk berdiskusi dengan para ahli mengenai masalah apapun terkait kucing.
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-2.jpg" alt="">
-                <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h3 class="flaticon-home font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Home Security</h6>
-                </div>
-                <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-3.jpg" alt="">
-                <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h3 class="flaticon-factory font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Industry Security</h6>
-                </div>
-                <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-4.jpg" alt="">
-                <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h3 class="flaticon-transportation font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Transport Security</h6>
-                </div>
-                <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-5.jpg" alt="">
+                <img class="card-img-top" src="img/vaksin.jpg" alt="">
                 <div class="card-body bg-secondary d-flex align-items-center p-0">
                     <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Objects Security</h6>
+                    <h6 class="card-title text-white text-truncate m-0">Vaccination</h6>
                 </div>
                 <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
+                    Layanan vaksinasi kepada kucing agar tubuh mereka memiliki sistem kekebalan tubuh yang lebih kuat, sehingga tidak mudah terpapar penyakit.
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/service-6.jpg" alt="">
+                <img class="card-img-top" src="img/treat.jpg" alt="">
                 <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h3 class="flaticon-bodyguard font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
-                    <h6 class="card-title text-white text-truncate m-0">Private Security</h6>
+                    <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                    <h6 class="card-title text-white text-truncate m-0">Treatment</h6>
                 </div>
                 <div class="card-footer">
-                    Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.
+                    Layanan perawatan kepada kucing untuk menjaga kesehatan dan kebersihan kucing, sehingga mereka dapat beraktivitas dengan ceria.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/groom.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                    <h6 class="card-title text-white text-truncate m-0">Grooming</h6>
+                </div>
+                <div class="card-footer">
+                    Layanan grooming pada kucing agar dapat membantu pemilik untuk meningkatkan hubungan dengan kucing kesayangan.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/examinate.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                    <h6 class="card-title text-white text-truncate m-0">Physical Examination</h6>
+                </div>
+                <div class="card-footer">
+                    Layanan pemeriksaan fisik kepada kucing secara rutin dapat membantu pemilik untuk mengetahui kondisi kucing kesayangannya.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card mb-2 p-3">
+                <img class="card-img-top" src="img/ad.jpg" alt="">
+                <div class="card-body bg-secondary d-flex align-items-center p-0">
+                    <h3 class="flaticon-desk font-weight-normal d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white m-0 mr-3" style="width: 45px; height: 45px;"></h3>
+                    <h6 class="card-title text-white text-truncate m-0">AD - Adoption & Donation</h6>
+                </div>
+                <div class="card-footer">
+                    Layanan adopsi maupun donasi dapat membantu Anda untuk mengadopsi kucing pada shelter kami maupun berdonasi untuk keperluan mereka.
                 </div>
             </div>
         </div>
