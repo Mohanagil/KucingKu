@@ -272,6 +272,7 @@
 <!-- Team End -->
 
 <!-- Blog Start -->
+@if( ! $blog->isEmpty() )
 <div class="container pt-5">
     <div class="d-flex flex-column text-center mb-5">
         <h5 class="text-primary mb-3">Blog Artikel</h5>
@@ -299,6 +300,7 @@
         </div>
     @endforeach
     <center><a href="{{route('main.blog')}}" class="btn btn-primary">Lihat Lainnya</a></center>
+    @endif
 </div>
 <!-- Blog End -->
 @endsection

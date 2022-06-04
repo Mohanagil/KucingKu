@@ -5,7 +5,7 @@
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Edit Blog Article</li>
     </ol>
-    <form action="{{route('blog.update',$blog->id)}}" method="POST" enctype="multipart/form-data">
+    <form action="{{route('blog.update',$blog->id)}}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
         @method('PUT')
         <div class="mb-3">

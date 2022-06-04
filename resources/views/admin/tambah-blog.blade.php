@@ -5,7 +5,7 @@
     <ol class="breadcrumb mb-4">
         <li class="breadcrumb-item active">Add Blog Article</li>
     </ol>
-    <form action="{{route('blog.store')}}" method="POST" enctype="multipart/form-data">
+    <form action="{{route('blog.store')}}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Judul Artikel</label>
