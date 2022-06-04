@@ -39,7 +39,7 @@ Route::prefix('/')->name('main.')->group(function () {
 
 
 # route untuk kucing admin
-Route::prefix('/kucing')->name('kucing.')->group(function () {
+Route::prefix('/kucing')->name('kucing.')->middleware('auth')->group(function () {
     Route::get('/', [KucingController::class, 'index'])->name('index');
     Route::get('/data',[KucingController::class,'data'])->name('data');
     Route::get('/create', [KucingController::class, 'create'])->name('tambah');
@@ -51,7 +51,7 @@ Route::prefix('/kucing')->name('kucing.')->group(function () {
 });
 
 # route untuk blog admin
-Route::prefix('/blog')->name('blog.')->group(function () {
+Route::prefix('/blog')->name('blog.')->middleware('auth')->group(function () {
     Route::get('/', [BlogController::class, 'index'])->name('index');
     Route::get('/data',[BlogController::class,'data'])->name('data');
     Route::get('/create', [BlogController::class, 'create'])->name('tambah');
@@ -63,7 +63,7 @@ Route::prefix('/blog')->name('blog.')->group(function () {
 });
 
 # route untuk adopter
-Route::prefix('/adopter')->name('adopter.')->group(function () {
+Route::prefix('/adopter')->name('adopter.')->middleware('auth')->group(function () {
     Route::get('/', [AdopterController::class, 'index'])->name('index');
     Route::get('/data',[AdopterController::class,'data'])->name('data');
     Route::get('/show/{id?}', [AdopterController::class, 'show'])->name('detail');
@@ -76,7 +76,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 # route untuk admin
-Route::prefix('/admin')->name('admin.')->group(function () {
+Route::prefix('/admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('index');
 });
 
