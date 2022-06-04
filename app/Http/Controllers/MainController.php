@@ -11,7 +11,8 @@ class MainController extends Controller
     //untuk menampilkan halaman about
     public function index()
     {
-        return view('main.index');
+        $blog = blog::paginate(3);
+        return view('main.index',compact('blog'));
     }
 
     //untuk menampilkan halaman about

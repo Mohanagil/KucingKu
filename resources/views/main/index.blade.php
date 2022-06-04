@@ -94,7 +94,7 @@
                     <p>KucingKu telah mendapatkan berbagai penghargaan dalam memberikan cinta kepada para kucing yang memerlukan bantuan</p>
                 </div>
             </div>
-  
+
         </div>
     </div>
 </div>
@@ -274,62 +274,31 @@
 <!-- Blog Start -->
 <div class="container pt-5">
     <div class="d-flex flex-column text-center mb-5">
-        <h5 class="text-primary mb-3">Recent Blog</h5>
-        <h1 class="m-0">Latest From Our Blog</h1>
+        <h5 class="text-primary mb-3">Blog Artikel</h5>
+        <h1 class="m-0">Yang Terbaru dari KucingKu</h1>
     </div>
-    <div class="row pb-3">
+    @foreach ($blog->chunk(3) as $chunk)
+        <div class="row">
+        @foreach ($chunk as $blogs)
         <div class="col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/blog-1.jpg" alt="">
+                <img class="card-img-top" style="width: 316px;height: 237px;" src="{{asset('storage/blog/'.$blogs->image)}}" alt="">
                 <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
-                    <a href="" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
+                    <h6 class="card-title text-white text-truncate m-0 ml-3">{{$blogs->judul}}</h6>
+                    <a href="" style="width: 45px; height: 45px;"></a>
                 </div>
                 <div class="card-footer py-3 px-4">
                     <div class="d-flex mb-2">
-                        <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                        <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
+                        <small class="mr-3"><i class="fa fa-user text-primary"></i>{{$blogs->penulis}}</small>
                     </div>
-                    <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
+                    <p class="m-0" >{{substr($blogs->deskripsi, 0,  150)}}...<a href="{{route('main.blog_selengkapnya',$blogs->id)}}"> Selengkapnya</a></p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/blog-2.jpg" alt="">
-                <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
-                    <a href="" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
-                </div>
-                <div class="card-footer py-3 px-4">
-                    <div class="d-flex mb-2">
-                        <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                        <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                    </div>
-                    <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
-                </div>
-            </div>
+        @endforeach
         </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card mb-2 p-3">
-                <img class="card-img-top" src="img/blog-3.jpg" alt="">
-                <div class="card-body bg-secondary d-flex align-items-center p-0">
-                    <h6 class="card-title text-white text-truncate m-0 ml-3">Diam amet eos at no eos</h6>
-                    <a href="" class="fa fa-link d-flex flex-shrink-0 align-items-center justify-content-center bg-primary text-white text-decoration-none m-0 ml-auto" style="width: 45px; height: 45px;"></a>
-                </div>
-                <div class="card-footer py-3 px-4">
-                    <div class="d-flex mb-2">
-                        <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                        <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                        <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                    </div>
-                    <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    @endforeach
+    <center><a href="{{route('main.blog')}}" class="btn btn-primary">Lihat Lainnya</a></center>
 </div>
 <!-- Blog End -->
 @endsection
