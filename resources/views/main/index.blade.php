@@ -52,8 +52,8 @@
             <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
                 <i class="flaticon-surveillance display-3 text-primary mr-4"></i>
                 <div class="">
-                    <h5 class="mb-3">Informasi</h5>
-                    <p class="m-0" style="text-align: justify;">Temukan sekilas informasi di menu Blog kami. Kami menyediakan berbagai informasi mengenai cara memelihara kucing, perawatan kucing, dan informasi lainnya dalam bentuk konten di Blog kami. Artikel dalam blog kami dapat dibaca dan disebarluaskan kembali.
+                    <br><h5 class="mb-3">Informasi</h5>
+                    <p class="m-0" style="text-align: justify;">Temukan sekilas informasi di menu Blog kami. Kami menyediakan berbagai informasi mengenai cara memelihara kucing, perawatan kucing, dan informasi lainnya dalam bentuk konten di Blog kami. Segala artikel dalam blog kami dapat dibaca dan disebarluaskan kembali sebagai referensi  untuk menambah wawasan pembaca, terutama mengenai dunia seputar kucing.
                     </p>
                 </div>
             </div>
