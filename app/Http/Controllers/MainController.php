@@ -35,7 +35,7 @@ class MainController extends Controller
     //untuk menampilkan halaman list kucing
     public function kucing()
     {
-        $kucing = Kucing::all();
+        $kucing = kucing::paginate(6);
         return view('main.kucing-list',compact('kucing'));
     }
 
@@ -49,7 +49,7 @@ class MainController extends Controller
     //untuk menampilkan halaman list blog
     public function blog()
     {
-        $blog = blog::all();
+        $blog = blog::paginate(6);
         return view('main.blog-list',compact('blog'));
     }
 

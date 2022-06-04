@@ -44,7 +44,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Pilih Kucing</label>
-                        <select class="form-control" aria-label="Default select example" name="kucing" id="kucing">
+                        <select class="form-control select2" aria-label="Default select example" name="kucing" id="kucing">
                             <option selected disabled value="">Pilih Kucing</option>
                             @foreach ($kucing as $cat)
                             <option value="{{$cat->id}}">{{$cat->nama}} - {{$cat->ras}}</option>
@@ -69,4 +69,11 @@
     </div>
 </div>
 <!-- Contact End -->
+@endsection
+@section('js')
+<script>
+$(document).ready(function() {
+    $('.select2').select2();
+});
+</script>
 @endsection

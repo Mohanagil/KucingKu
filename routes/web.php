@@ -5,6 +5,7 @@ use App\Http\Controllers\AdopterController;
 use App\Http\Controllers\KucingController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\AdminController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -70,8 +71,14 @@ Route::prefix('/adopter')->name('adopter.')->group(function () {
     Route::post('/store', [AdopterController::class, 'store'])->name('store');
 });
 
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 # route untuk admin
 Route::prefix('/admin')->name('admin.')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('index');
 });
+
+
 

@@ -83,7 +83,7 @@ class KucingController extends Controller
      public function edit($id)
      {
          $kucing = Kucing::find($id);
-         return view('admin.detail-kucing',compact('kucing'));
+         return view('admin.edit-kucing',compact('kucing'));
      }
 
       //untuk menampilkan halaman detail data kucing admin

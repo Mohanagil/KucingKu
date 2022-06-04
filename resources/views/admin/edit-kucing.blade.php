@@ -34,7 +34,7 @@
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Deskripsi</label>
-            <input type="berat" class="form-control" id="deskripsi" name="deskripsi" aria-describedby="emailHelp" value="{{$kucing->deskripsi}}" required="">
+            <textarea class="form-control" id="deskrispi" name="deskripsi" rows="5" style="overflow-y: scroll;"required="">{{$kucing->deskripsi}}</textarea>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Foto</label>

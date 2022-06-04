@@ -6,11 +6,12 @@
         <h5 class="text-primary mb-3">Blog Artikel</h5>
         <h1 class="m-0">yang terbaru di KucingKu</h1>
     </div>
-    @foreach ($blog as $blogs)
-    <div class="row pb-3">
+    @foreach ($blog->chunk(3) as $chunk)
+        <div class="row">
+        @foreach ($chunk as $blogs)
         <div class="col-lg-4 mb-4">
             <div class="card mb-2 p-3">
-                <img class="card-img-top" src="{{asset('storage/blog/'.$blogs->image)}}" alt="">
+                <img class="card-img-top" style="width: 316px;height: 237px;" src="{{asset('storage/blog/'.$blogs->image)}}" alt="">
                 <div class="card-body bg-secondary d-flex align-items-center p-0">
                     <h6 class="card-title text-white text-truncate m-0 ml-3">{{$blogs->judul}}</h6>
                     <a href="" style="width: 45px; height: 45px;"></a>
@@ -23,29 +24,16 @@
                 </div>
             </div>
         </div>
+        @endforeach
+        </div>
     @endforeach
         <div class="col-lg-12">
             <nav aria-label="Page navigation">
               <ul class="pagination justify-content-center mb-4">
-                <li class="page-item disabled">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                </li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </li>
+                {!! $blog->links() !!}
               </ul>
             </nav>
         </div>
-    </div>
 </div>
 <!-- Blog End -->
 @endsection

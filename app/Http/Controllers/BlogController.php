@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use Alert;
 use Yajra\DataTables\Facades\DataTables;
-
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
@@ -23,12 +23,18 @@ class BlogController extends Controller
         return Datatables::of($blog)
             ->addIndexColumn()
             ->addColumn('action', function ($user) {
-                return '<a href="'.route('blog.detail',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Detail</a>'.'<a href="'.route('blog.edit',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
+                return '<a href="'.route('blog.detail',$user->id).'" class="btn btn-xs btn-primary"><i class="glyphicon glyphicon-edit"></i>Detail</a>'.'<a href="'.route('blog.edit',$user->id).'" class="btn btn-xs btn-warning"><i class="glyphicon glyphicon-edit"></i> Edit</a>'.'<a href="'.
                 route('blog.destroy',$user->id).'" class="btn btn-xs btn-danger"><i class="glyphicon glyphicon-edit"></i> Hapus</a>';;
 
             })
             ->editColumn('image', function ($query) {
                 return '<img src="'.asset('storage/blog/'.$query->image).'" width="100px" height="100px">';
+            })
+            ->editColumn('penulis', function ($data1) {
+                return Str::limit($data1->penulis, 10);
+            })
+            ->editColumn('judul', function ($data) {
+                return Str::limit($data->judul, 50);
             })
             ->escapeColumns([])
             ->make(true);
