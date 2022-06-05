@@ -14,6 +14,9 @@
             <div class="contact-form bg-white">
                 <div id="success"></div>
                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="text-center">
+                    <h4 class="text-primary mb-3">Contact Us</h4>
+                </div>
                     <div class="card-deck">
                         <div class="card text-center">
                             <div class="card-header">
