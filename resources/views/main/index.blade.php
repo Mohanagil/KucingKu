@@ -206,20 +206,20 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-1.jpg" alt="Image">
+                    <img class="img-thumbnail p-3" src="img/1.jpg" alt="Image">
                 </div>
             </div>
         </div>
         <div class="col-lg-6 mb-4">
             <div class="row mb-2 align-items-center">
                 <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-2.jpg" alt="Image">
+                    <img class="img-thumbnail p-3" src="img/4.jpg" alt="Image">
                 </div>
                 <div class="col-6 text-left">
-                    <h6>Reynisa Beta Nurlyan</h6>
-                    <h6>NIM. 20051214044</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Costumer Service</h6>
-                    <p>Kami akan selalu sedia untuk memberikan kualitas pelayanan yang terbaik kepada Anda dengan penuh cinta setiap saat. Have a purr-fect day!</p>
+                    <h6>Muhammad Agil Maulana</h6>
+                    <h6>NIM. 20051214074</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Donation Coordinator</h6>
+                    <p>Kami akan selalu berusaha untuk menyalurkan cinta kasih yang telah Anda berikan kepada pada kucing dengan baik. We love cats the meow-st!.</p>
                     <div class="d-flex justify-content-start">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
@@ -232,10 +232,10 @@
         <div class="col-lg-6 mb-4">
             <div class="row mb-2 align-items-center">
                 <div class="col-6 text-right">
-                    <h6>Muhammad Agil Maulana</h6>
-                    <h6>NIM. 20051214074</h6>
-                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Donation Coordinator</h6>
-                    <p>Kami akan selalu berusaha untuk menyalurkan cinta kasih yang telah Anda berikan kepada pada kucing dengan baik. We love cats the meow-st!.</p>
+                    <h6>Reynisa Beta Nurlyan</h6>
+                    <h6>NIM. 20051214044</h6>
+                    <h6 class="text-muted font-weight-normal text-capitalize mb-2">Costumer Service</h6>
+                    <p> Kami akan selalu sedia untuk memberikan kualitas pelayanan yang terbaik kepada Anda dengan penuh cinta setiap saat. Have a purr-fect day!</p>
                     <div class="d-flex justify-content-end">
                         <a href=""><i class="fab fa-twitter mr-3"></i></a>
                         <a href=""><i class="fab fa-facebook-f mr-3"></i></a>
@@ -244,14 +244,14 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-3.jpg" alt="Image">
+                    <img class="img-thumbnail p-3" src="img/3.jpg" alt="Image">
                 </div>
             </div>
         </div>
         <div class="col-lg-6 mb-4">
             <div class="row mb-2 align-items-center">
                 <div class="col-6">
-                    <img class="img-thumbnail p-3" src="img/team-4.jpg" alt="Image">
+                    <img class="img-thumbnail p-3" src="img/2.jpg" alt="Image">
                 </div>
                 <div class="col-6 text-left">
                     <h6>Rendy Pratama</h6>
