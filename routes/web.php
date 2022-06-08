@@ -63,7 +63,7 @@ Route::prefix('/blog')->name('blog.')->middleware('auth')->group(function () {
 });
 
 # route untuk adopter
-Route::prefix('/adopter')->name('adopter.')->middleware('auth')->group(function () {
+Route::prefix('/adopter')->name('adopter.')->group(function () {
     Route::get('/', [AdopterController::class, 'index'])->name('index');
     Route::get('/data',[AdopterController::class,'data'])->name('data');
     Route::get('/show/{id?}', [AdopterController::class, 'show'])->name('detail');
