@@ -76,11 +76,11 @@ class AdopterController extends Controller
         if($adopter){
             //redirect dengan pesan sukses
             Alert::success('Sukses', 'Data Berhasil dihapus!');
-            return redirect()->route('admin.adopter');
+            return view('admin.adopter');
         }else{
             //redirect dengan pesan error
             Alert::error('Error', 'Data Gagal dihapus!');
-            return redirect()->route('admin.adopter');
+            return view('admin.adopter');
         }
     }
 

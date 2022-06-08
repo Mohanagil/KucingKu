@@ -31,7 +31,7 @@ Route::prefix('/')->name('main.')->group(function () {
     Route::get('/kontak',[MainController::class,'kontak'])->name('kontak');
     Route::get('/donasi',[MainController::class,'donasi'])->name('donasi');
     Route::get('/adopt',[MainController::class,'adopt'])->name('adopt');
-    Route::get('/list=blog',[MainController::class,'blog'])->name('blog');
+    Route::get('/list-blog',[MainController::class,'blog'])->name('blog');
     Route::get('/list-kucing',[MainController::class,'kucing'])->name('kucing');
     Route::get('/kucing-detail/{id?}',[MainController::class,'detailkucing'])->name('kucing_selengkapnya');
     Route::get('/blog-detail/{id?}',[MainController::class,'detailblog'])->name('blog_selengkapnya');
